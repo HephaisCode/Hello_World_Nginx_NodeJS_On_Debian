@@ -129,6 +129,8 @@ echo "}).listen(8000);" >> /home/${MYUSER}/${MYWEBFOLDER}/app.js
 
 chown -R ${MYUSER}:www-data /home/${MYUSER}/${MYWEBFOLDER}
 chmod -R 750 /home/${MYUSER}/${MYWEBFOLDER}
+
+nodejs /home/${MYUSER}/${MYWEBFOLDER}/app.js
 ```
 
 ## Install Domain Name
